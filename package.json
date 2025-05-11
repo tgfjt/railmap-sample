@@ -1,0 +1,11 @@
+{
+  "name": "railmap-sample-docs",
+  "version": "1.0.0",
+  "main": "docs/index.html",
+  "scripts": {
+    "start": "http-server ./docs -o"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
