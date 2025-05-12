@@ -125,7 +125,35 @@
 		.color-L15833B {
 			fill: #15833B;
 		}
+
+		.heavy {
+			font-weight: 900;
+		}
+
+		.bold {
+			font-weight: 700;
+		}
+
+		.station-highlight {
+			animation: pulse 2s infinite;
+			fill: rgba(255, 51, 51, 0.8)
+		}
+
+		@keyframes pulse {
+			0% {
+				opacity: 0.5;
+			}
+
+			50% {
+				opacity: 0.8;
+			}
+
+			100% {
+				opacity: 0.5;
+			}
+		}
 	</style>
+
 </head>
 
 <body>
@@ -148,8 +176,8 @@
 			c5.5,0,10-4.5,10-10v-72c0-5.5-3.182-13.182-7.071-17.071L3727.071,2486.571z" />
 				</g>
 
-				<text id="imperial-palace" transform="matrix(0.75 0 0 1 3677.4355 2583.416)" fill="#7C7B7C"
-					font-family="'mplus-2p-heavy'" font-size="36px">皇居</text>
+				<text id="imperial-palace" transform="matrix(0.75 0 0 1 3677.4355 2583.416)" fill="#7C7B7C" class="heavy"
+					font-size="36px">皇居</text>
 				<g id="sea">
 					<path fill-rule="evenodd" clip-rule="evenodd" fill="#B3CBE7" d="M-7.861,4994.667h1207.424c5.5,0,10,4.5,10,10v53.009
 			c0,5.5,4.5,10,10,10h449.496c5.5,0,6.818,3.182,2.929,7.071l-61.395,61.395c-3.889,3.889-2.571,7.071,2.929,7.071h226.211
@@ -201,24 +229,24 @@
 				</g>
 				<g id="隅田川_6_">
 					<text transform="matrix(0.75 0 0 0.75 4458.436 2865.5)">
-						<tspan x="0" y="0" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">隅</tspan>
-						<tspan x="0" y="32" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">田</tspan>
-						<tspan x="0" y="64" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">川</tspan>
+						<tspan x="0" y="0" fill="#FFFFFF" class="bold" font-size="23px">隅</tspan>
+						<tspan x="0" y="32" fill="#FFFFFF" class="bold" font-size="23px">田</tspan>
+						<tspan x="0" y="64" fill="#FFFFFF" class="bold" font-size="23px">川</tspan>
 					</text>
 				</g>
 				<g id="隅田川_1_">
 					<text transform="matrix(0.75 0 0 0.75 4458.436 2124)">
-						<tspan x="0" y="0" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">隅</tspan>
-						<tspan x="0" y="32" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">田</tspan>
-						<tspan x="0" y="64" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">川</tspan>
+						<tspan x="0" y="0" fill="#FFFFFF" class="bold" font-size="23px">隅</tspan>
+						<tspan x="0" y="32" fill="#FFFFFF" class="bold" font-size="23px">田</tspan>
+						<tspan x="0" y="64" fill="#FFFFFF" class="bold" font-size="23px">川</tspan>
 					</text>
 				</g>
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 2862.4355 1365.7168)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 2862.4355 1365.7168)" fill="#FFFFFF" class="bold"
 						font-size="23px">隅田川</text>
 				</g>
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 3691.4565 1365.5479)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 3691.4565 1365.5479)" fill="#FFFFFF" class="bold"
 						font-size="23px">隅田川</text>
 				</g>
 				<g id="江戸川_14_">
@@ -228,16 +256,16 @@
 				</g>
 				<g id="江戸川_10_">
 					<text transform="matrix(0.75 0 0 0.75 5155.7192 2475.25)">
-						<tspan x="0" y="0" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">江</tspan>
-						<tspan x="0" y="32" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">戸</tspan>
-						<tspan x="0" y="64" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">川</tspan>
+						<tspan x="0" y="0" fill="#FFFFFF" class="bold" font-size="23px">江</tspan>
+						<tspan x="0" y="32" fill="#FFFFFF" class="bold" font-size="23px">戸</tspan>
+						<tspan x="0" y="64" fill="#FFFFFF" class="bold" font-size="23px">川</tspan>
 					</text>
 				</g>
 				<g id="江戸川_7_">
 					<text transform="matrix(0.75 0 0 0.75 4971.436 1260.6143)">
-						<tspan x="0" y="0" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">江</tspan>
-						<tspan x="0" y="32" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">戸</tspan>
-						<tspan x="0" y="64" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">川</tspan>
+						<tspan x="0" y="0" fill="#FFFFFF" class="bold" font-size="23px">江</tspan>
+						<tspan x="0" y="32" fill="#FFFFFF" class="bold" font-size="23px">戸</tspan>
+						<tspan x="0" y="64" fill="#FFFFFF" class="bold" font-size="23px">川</tspan>
 					</text>
 				</g>
 				<g id="荒川_14_">
@@ -249,33 +277,33 @@
 				<g id="荒川_10_">
 					<rect x="4722.906" y="2001.935" fill="none" width="24.529" height="96.315" />
 
-					<text transform="matrix(0.75 0 0 0.75 4735.936 2001.9346)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
-						font-size="23px" glyph-orientation-vertical="0" writing-mode="tb">荒川</text>
+					<text transform="matrix(0.75 0 0 0.75 4735.936 2001.9346)" fill="#FFFFFF" class="bold" font-size="23px"
+						glyph-orientation-vertical="0" writing-mode="tb">荒川</text>
 				</g>
 				<g id="荒川_7_">
 					<text transform="matrix(0.75 0 0 0.75 4770.1431 2683.8945)">
-						<tspan x="0" y="0" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">荒</tspan>
-						<tspan x="0" y="32" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">川</tspan>
+						<tspan x="0" y="0" fill="#FFFFFF" class="bold" font-size="23px">荒</tspan>
+						<tspan x="0" y="32" fill="#FFFFFF" class="bold" font-size="23px">川</tspan>
 					</text>
 				</g>
 				<g id="荒川_1_">
 					<text transform="matrix(0.75 0 0 0.75 4769.1431 2144.5)">
-						<tspan x="0" y="0" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">荒</tspan>
-						<tspan x="0" y="32" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">川</tspan>
+						<tspan x="0" y="0" fill="#FFFFFF" class="bold" font-size="23px">荒</tspan>
+						<tspan x="0" y="32" fill="#FFFFFF" class="bold" font-size="23px">川</tspan>
 					</text>
 				</g>
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 2871.4355 1318.5391)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 2871.4355 1318.5391)" fill="#FFFFFF" class="bold"
 						font-size="23px">荒川</text>
 				</g>
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 3700.4565 1318.3701)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 3700.4565 1318.3701)" fill="#FFFFFF" class="bold"
 						font-size="23px">荒川</text>
 				</g>
 				<g>
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 1775.8224 910.7495)" fill="#FFFFFF"
-						font-family="'mplus-2p-bold'" font-size="23px">荒川</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 1775.8224 910.7495)" fill="#FFFFFF" class="bold"
+						font-size="23px">荒川</text>
 				</g>
 				<g id="多摩川_1_">
 					<path fill="none" stroke="#B3CBE7" stroke-width="30" stroke-linecap="square" stroke-linejoin="round" d="M3549.935,3848.5
@@ -284,29 +312,29 @@
 			c-5.5,0.02-13.182-3.146-17.071-7.035l-285.95-285.95c-3.889-3.889-11.571-7.071-17.071-7.071H6" />
 				</g>
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 3386.751 3855.3799)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 3386.751 3855.3799)" fill="#FFFFFF" class="bold"
 						font-size="23px">多摩川</text>
 				</g>
 				<g>
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2284.5977 3367.5581)" fill="#FFFFFF"
-						font-family="'mplus-2p-bold'" font-size="23px">多摩川</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2284.5977 3367.5581)" fill="#FFFFFF" class="bold"
+						font-size="23px">多摩川</text>
 				</g>
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 1455.4355 2749.583)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 1455.4355 2749.583)" fill="#FFFFFF" class="bold"
 						font-size="23px">多摩川</text>
 				</g>
 				<g>
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 333.8907 2014.558)" fill="#FFFFFF"
-						font-family="'mplus-2p-bold'" font-size="23px">多摩川</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 333.8907 2014.558)" fill="#FFFFFF" class="bold"
+						font-size="23px">多摩川</text>
 				</g>
 				<path id="狭山湖" fill="#B3CBE7" d="M630.56,1890.125c0,2.209,1.791,4,4,4H687c2.209,0,4-1.791,4-4V1798c0-2.209-1.791-4-4-4
 		h-52.44c-2.209,0-4,1.791-4,4V1890.125z" />
 				<path id="多摩湖" fill="#B3CBE7" d="M881.542,1959.012c0,2.209-1.791,4-4,4H634.56c-2.209,0-4-1.791-4-4v-56.136
 		c0-2.209,1.791-4,4-4h242.982c2.209,0,4,1.791,4,4V1959.012z" />
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 736.668 1935.3691)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 736.668 1935.3691)" fill="#FFFFFF" class="bold"
 						font-size="23px">多摩湖</text>
 				</g>
 				<g id="相模川_6_">
@@ -314,20 +342,19 @@
 						d="M458.549,5035.842V3058.126c0-5.5-4.5-10-10-10H-2.289" />
 				</g>
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 205 3054.3755)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
-						font-size="23px">相模川</text>
+					<text transform="matrix(0.75 0 0 0.75 205 3054.3755)" fill="#FFFFFF" class="bold" font-size="23px">相模川</text>
 				</g>
 				<g id="相模川_1_">
 					<text transform="matrix(0.75 0 0 0.75 451 4822.3989)">
-						<tspan x="0" y="0" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">相</tspan>
-						<tspan x="0" y="32" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">模</tspan>
-						<tspan x="0" y="64" fill="#FFFFFF" font-family="'mplus-2p-bold'" font-size="23px">川</tspan>
+						<tspan x="0" y="0" fill="#FFFFFF" class="bold" font-size="23px">相</tspan>
+						<tspan x="0" y="32" fill="#FFFFFF" class="bold" font-size="23px">模</tspan>
+						<tspan x="0" y="64" fill="#FFFFFF" class="bold" font-size="23px">川</tspan>
 					</text>
 				</g>
 				<g>
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1012.686 1205.7738)" fill="#FFFFFF"
-						font-family="'mplus-2p-bold'" font-size="23px">入間川</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1012.686 1205.7738)" fill="#FFFFFF" class="bold"
+						font-size="23px">入間川</text>
 				</g>
 				<g id="高麗川_2_">
 					<path fill="none" stroke="#B3CBE7" stroke-width="25" stroke-linecap="round" d="M1416.743,793.093l-175.011-175.011
@@ -336,14 +363,14 @@
 				</g>
 				<g>
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 695.0024 794.0942)" fill="#FFFFFF"
-						font-family="'mplus-2p-bold'" font-size="23px">高麗川</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 695.0024 794.0942)" fill="#FFFFFF" class="bold"
+						font-size="23px">高麗川</text>
 				</g>
 
 				<line id="秋川" fill="none" stroke="#B3CBE7" stroke-width="30" stroke-linecap="square" stroke-linejoin="round"
 					x1="515" y1="2190.5" x2="16" y2="2190.5" />
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 635.0332 1851.4165)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 635.0332 1851.4165)" fill="#FFFFFF" class="bold"
 						font-size="23px">狭山湖</text>
 				</g>
 				<g id="利根川">
@@ -351,39 +378,39 @@
 			c-5.5,0-13.182-3.182-17.071-7.071L4718.386,0.218" />
 				</g>
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 6133.5269 1092.501)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 6133.5269 1092.501)" fill="#FFFFFF" class="bold"
 						font-size="23px">利根川</text>
 				</g>
 				<g>
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 5138.1943 429.9916)" fill="#FFFFFF"
-						font-family="'mplus-2p-bold'" font-size="23px">利根川</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 5138.1943 429.9916)" fill="#FFFFFF" class="bold"
+						font-size="23px">利根川</text>
 				</g>
 				<path id="印旛沼_1_" fill="#B3CBE7" d="M6428.192,1584.125c0,2.209-1.791,4-4,4H6295c-2.209,0-4-1.791-4-4v-101.26
 		c0-2.209,1.791-4,4-4h129.192c2.209,0,4,1.791,4,4V1584.125z" />
 				<path id="印旛沼" fill="#B3CBE7" d="M6428.586,1738.984c0,2.209-1.792,4-4,4h-129.193c-2.209,0-4-1.791-4-4v-101.26
 		c0-2.209,1.791-4,4-4h129.193c2.208,0,4,1.791,4,4V1738.984z" />
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 6335.9839 1541.5)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 6335.9839 1541.5)" fill="#FFFFFF" class="bold"
 						font-size="23px">印旛沼</text>
 				</g>
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 6335.7769 1693.5151)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 6335.7769 1693.5151)" fill="#FFFFFF" class="bold"
 						font-size="23px">印旛沼</text>
 				</g>
 				<g>
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 4628.1025 418.0834)" fill="#FFFFFF"
-						font-family="'mplus-2p-bold'" font-size="23px">江戸川</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 4628.1025 418.0834)" fill="#FFFFFF" class="bold"
+						font-size="23px">江戸川</text>
 				</g>
 				<path fill="#B3CBE7" d="M3962.129,1987c0-3.313-1.844-6-4.118-6H3837.43c-2.274,0-4.118,2.687-4.118,6v33.5
 		c0,3.313,1.844,6,4.118,6h120.581c2.274,0,4.118-2.687,4.118-6V1987z" />
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 1978.9741 4439.1128)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 1978.9741 4439.1128)" fill="#FFFFFF" class="bold"
 						font-size="14px">大岡川</text>
 				</g>
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 1513.3567 4439.1133)" fill="#FFFFFF" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 1513.3567 4439.1133)" fill="#FFFFFF" class="bold"
 						font-size="14px">大岡川</text>
 				</g>
 			</g>
@@ -440,15 +467,15 @@
 							font-size="29px">国際線</text>
 					</g>
 
-					<text transform="matrix(0.75 0 0 0.75 3706.603 3889.4697)" fill="#1D2B56" font-family="'mplus-2p-bold'"
-						font-size="72px" letter-spacing="-2.667">羽田空港</text>
+					<text transform="matrix(0.75 0 0 0.75 3706.603 3889.4697)" fill="#1D2B56" class="bold" font-size="72px"
+						letter-spacing="-2.667">羽田空港</text>
 				</g>
 				<g id="narita">
 					<g>
 						<path fill-rule="evenodd" clip-rule="evenodd" fill="#DBD7D5" d="M6924.436,2005.5c0,5.5-4.5,10-10,10h-248.498
 				c-5.5,0-10-4.5-10-10v-205.872c0-5.5,4.5-10,10-10h248.498c5.5,0,10,4.5,10,10V2005.5z" />
 					</g>
-					<text transform="matrix(0.75 0 0 0.75 6849.437 2115.3848)" fill="#1D2B56" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 6849.437 2115.3848)" fill="#1D2B56" class="heavy"
 						font-size="72px">成田空港</text>
 				</g>
 				<g id="mark">
@@ -4359,36 +4386,36 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 			</g>
 			<g id="line-name">
 				<g>
-					<text transform="matrix(0.75 0 0 0.75 3403.436 2794.4429)" fill="#1F8C43" font-family="'mplus-2p-bold'"
+					<text transform="matrix(0.75 0 0 0.75 3403.436 2794.4429)" fill="#1F8C43" class="bold"
 						font-size="18px">千代田線</text>
 				</g>
-				<text transform="matrix(0.75 0 0 0.75 3403.9355 2941.0005)" fill="#A4B4BD" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 3403.9355 2941.0005)" fill="#A4B4BD" class="bold"
 					font-size="18px">日比谷線</text>
 
-				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3646.8127 2368.4277)" fill="#1AA5D0"
-					font-family="'mplus-2p-bold'" font-size="18px">東西線</text>
+				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3646.8127 2368.4277)" fill="#1AA5D0" class="bold"
+					font-size="18px">東西線</text>
 
-				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3492.8323 1953.5001)" fill="#DA1817"
-					font-family="'mplus-2p-bold'" font-size="18px">丸ノ内線</text>
-
-				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3291.6038 1968.8536)" fill="#D3C452"
-					font-family="'mplus-2p-bold'" font-size="18px">有楽町線</text>
-				<text transform="matrix(0.75 0 0 0.75 3139.5474 1957.252)">
-					<tspan x="0" y="0" fill="#BC6D21" font-family="'mplus-2p-bold'" font-size="18px">副</tspan>
-					<tspan x="0" y="20" fill="#BC6D21" font-family="'mplus-2p-bold'" font-size="18px">都</tspan>
-					<tspan x="0" y="40" fill="#BC6D21" font-family="'mplus-2p-bold'" font-size="18px">心</tspan>
-					<tspan x="0" y="60" fill="#BC6D21" font-family="'mplus-2p-bold'" font-size="18px">線</tspan>
-				</text>
-				<text transform="matrix(0.75 0 0 0.75 3402.936 3029.4976)" fill="#B00D7C" font-family="'mplus-2p-bold'"
-					font-size="18px">都営大江戸線</text>
-				<text transform="matrix(0.75 0 0 0.75 2407.3398 2377.5)" fill="#DA1817" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3492.8323 1953.5001)" fill="#DA1817" class="bold"
 					font-size="18px">丸ノ内線</text>
 
-				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2527.4358 1959.5138)" fill="#B00D7C"
-					font-family="'mplus-2p-bold'" font-size="18px">都営大江戸線</text>
-				<text transform="matrix(0.75 0 0 0.75 3431.4253 3216.8315)" fill="#DA5A98" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3291.6038 1968.8536)" fill="#D3C452" class="bold"
+					font-size="18px">有楽町線</text>
+				<text transform="matrix(0.75 0 0 0.75 3139.5474 1957.252)">
+					<tspan x="0" y="0" fill="#BC6D21" class="bold" font-size="18px">副</tspan>
+					<tspan x="0" y="20" fill="#BC6D21" class="bold" font-size="18px">都</tspan>
+					<tspan x="0" y="40" fill="#BC6D21" class="bold" font-size="18px">心</tspan>
+					<tspan x="0" y="60" fill="#BC6D21" class="bold" font-size="18px">線</tspan>
+				</text>
+				<text transform="matrix(0.75 0 0 0.75 3402.936 3029.4976)" fill="#B00D7C" class="bold"
+					font-size="18px">都営大江戸線</text>
+				<text transform="matrix(0.75 0 0 0.75 2407.3398 2377.5)" fill="#DA1817" class="bold"
+					font-size="18px">丸ノ内線</text>
+
+				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2527.4358 1959.5138)" fill="#B00D7C" class="bold"
+					font-size="18px">都営大江戸線</text>
+				<text transform="matrix(0.75 0 0 0.75 3431.4253 3216.8315)" fill="#DA5A98" class="bold"
 					font-size="18px">都営浅草線</text>
-				<text transform="matrix(0.75 0 0 0.75 3022.436 1483.3984)" fill="#0F7CBB" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 3022.436 1483.3984)" fill="#0F7CBB" class="bold"
 					font-size="18px">都営三田線</text>
 
 				<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 3656.4355 3623.2214)" fill="#7C7B7C"
@@ -4402,17 +4429,17 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 				<text transform="matrix(0.75 0 0 0.75 3707.4282 3351.8428)" fill="#2283BC" font-family="'mplus-2p-medium'"
 					font-size="18px">JR横須賀線</text>
 
-				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3676.4885 2333.5)" fill="#0F7CBB"
-					font-family="'mplus-2p-bold'" font-size="18px">都営三田線</text>
+				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3676.4885 2333.5)" fill="#0F7CBB" class="bold"
+					font-size="18px">都営三田線</text>
 				<text transform="matrix(0.75 0 0 0.75 2811.436 2226.5)" fill="#F4D21F" font-family="'mplus-2p-medium'"
 					font-size="18px">JR総武線各停</text>
 				<text transform="matrix(0.75 0 0 0.75 2811.436 2256.3154)" fill="#E6642A" font-family="'mplus-2p-medium'"
 					font-size="18px">JR中央線快速</text>
-				<text transform="matrix(0.75 0 0 0.75 3402.936 2689.394)" fill="#EB9D12" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 3402.936 2689.394)" fill="#EB9D12" class="bold"
 					font-size="18px">銀座線</text>
-				<text transform="matrix(0.75 0 0 0.75 3401.936 2651.9995)" fill="#9F83B6" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 3401.936 2651.9995)" fill="#9F83B6" class="bold"
 					font-size="18px">半蔵門線</text>
-				<text transform="matrix(0.75 0 0 0.75 3502.9707 2422.4995)" fill="#74BB63" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 3502.9707 2422.4995)" fill="#74BB63" class="bold"
 					font-size="18px">都営新宿線</text>
 
 				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3050.9358 1230.0773)" fill="#ED8E3F"
@@ -4438,17 +4465,17 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 
 				<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 4764.0586 2086.822)" fill="#F4D21F"
 					font-family="'mplus-2p-medium'" font-size="18px">JR総武線各停</text>
-				<text transform="matrix(0.75 0 0 0.75 4057.9829 1492.7461)" fill="#1F8C43" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 4057.9829 1492.7461)" fill="#1F8C43" class="bold"
 					font-size="18px">千代田線</text>
 				<text transform="matrix(0.75 0 0 0.75 4803.0996 1527.7744)" fill="#3EB373" font-family="'mplus-2p-medium'"
 					font-size="18px">常磐線快速</text>
 				<text transform="matrix(0.75 0 0 0.75 4783.6045 1492.3994)" fill="#AAA7A6" font-family="'mplus-2p-medium'"
 					font-size="18px">JR常磐線各停</text>
 				<text id="半蔵門線_2_" transform="matrix(0.75 0 0 0.75 4606.436 2275.5)">
-					<tspan x="0" y="0" fill="#9F83B6" font-family="'mplus-2p-bold'" font-size="18px">半</tspan>
-					<tspan x="0" y="20" fill="#9F83B6" font-family="'mplus-2p-bold'" font-size="18px">蔵</tspan>
-					<tspan x="0" y="40" fill="#9F83B6" font-family="'mplus-2p-bold'" font-size="18px">門</tspan>
-					<tspan x="0" y="60" fill="#9F83B6" font-family="'mplus-2p-bold'" font-size="18px">線</tspan>
+					<tspan x="0" y="0" fill="#9F83B6" class="bold" font-size="18px">半</tspan>
+					<tspan x="0" y="20" fill="#9F83B6" class="bold" font-size="18px">蔵</tspan>
+					<tspan x="0" y="40" fill="#9F83B6" class="bold" font-size="18px">門</tspan>
+					<tspan x="0" y="60" fill="#9F83B6" class="bold" font-size="18px">線</tspan>
 				</text>
 				<g id="京成本線_8_">
 
@@ -4458,12 +4485,12 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="3943.847" y="1841.687" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -153.0999 3337.9019)"
 						fill="#0B5FA6" stroke="#FFFFFF" stroke-width="2" width="17.947" height="24.158" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3944.6062 1851.0543)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">KS</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3944.6062 1851.0543)" fill="#FFFFFF" class="heavy"
+						font-size="16px">KS</text>
 				</g>
-				<text transform="matrix(0.75 0 0 0.75 4748.436 2568.332)" fill="#1AA5D0" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 4748.436 2568.332)" fill="#1AA5D0" class="bold"
 					font-size="18px">東西線</text>
-				<text transform="matrix(0.75 0 0 0.75 4725.4346 2398.5781)" fill="#74BB63" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 4725.4346 2398.5781)" fill="#74BB63" class="bold"
 					font-size="18px">都営新宿線</text>
 				<text transform="matrix(0.75 0 0 0.75 5582.0723 1622.7227)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 					font-size="18px">京成成田スカイアクセス線</text>
@@ -4472,7 +4499,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">北総線</text>
 					<rect x="5582.02" y="1576.252" fill="#23B9E3" stroke="#FFFFFF" stroke-width="2" width="24.156"
 						height="17.947" />
-					<text transform="matrix(0.75 0 0 0.75 5586.0732 1591.0752)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 5586.0732 1591.0752)" fill="#FFFFFF" class="heavy"
 						font-size="16px">HS</text>
 				</g>
 				<g id="東武野田線__xFF08_アーバンパークライン_xFF09__1_">
@@ -4483,7 +4510,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					</text>
 					<rect x="5405.846" y="1889.5" fill="#4EBDC0" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.947" />
-					<text transform="matrix(0.75 0 0 0.75 5409.8525 1902.3232)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 5409.8525 1902.3232)" fill="#FFFFFF" class="heavy"
 						font-size="16px">TD</text>
 				</g>
 				<g id="東武野田線_xFF08_アーバンパークライン_xFF09__4_">
@@ -4491,7 +4518,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">東武野田線（アーバンパークライン）</text>
 					<rect x="2558.436" y="167.06" fill="#4EBDC0" stroke="#FFFFFF" stroke-width="2" width="24.157"
 						height="17.947" />
-					<text transform="matrix(0.75 0 0 0.75 2562.4424 181.8828)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 2562.4424 181.8828)" fill="#FFFFFF" class="heavy"
 						font-size="16px">TD</text>
 				</g>
 				<g id="東武野田線_xFF08_アーバンパークライン_xFF09__1_">
@@ -4499,7 +4526,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">東武野田線（アーバンパークライン）</text>
 					<rect x="4277.133" y="171.06" fill="#4EBDC0" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.947" />
-					<text transform="matrix(0.75 0 0 0.75 4281.1396 185.8828)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 4281.1396 185.8828)" fill="#FFFFFF" class="heavy"
 						font-size="16px">TD</text>
 				</g>
 				<g id="新京成線_2_">
@@ -4518,8 +4545,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="5521.674" y="1745.128" transform="matrix(0.7071 -0.7071 0.7071 0.7071 377.4346 4425.584)"
 						fill="#AE675A" stroke="#FFFFFF" stroke-width="2" width="17.948" height="24.157" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 5521.4062 1756.2948)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">SL</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 5521.4062 1756.2948)" fill="#FFFFFF" class="heavy"
+						font-size="16px">SL</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 5434.769 2445.4087)" fill="#E5683E" font-family="'mplus-2p-medium'"
 					font-size="18px">JR武蔵野線</text>
@@ -4530,7 +4557,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">京成本線</text>
 					<rect x="4916.803" y="1842.526" fill="#0B5FA6" stroke="#FFFFFF" stroke-width="2" width="24.156"
 						height="17.947" />
-					<text transform="matrix(0.75 0 0 0.75 4921.1206 1855.3496)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 4921.1206 1855.3496)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KS</text>
 				</g>
 				<g id="京成本線_3_">
@@ -4538,7 +4565,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">京成本線</text>
 					<rect x="5785.954" y="2329.026" fill="#0B5FA6" stroke="#FFFFFF" stroke-width="2" width="24.157"
 						height="17.947" />
-					<text transform="matrix(0.75 0 0 0.75 5790.2729 2343.8486)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 5790.2729 2343.8486)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KS</text>
 				</g>
 				<g id="東葉高速線_2_">
@@ -4546,7 +4573,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">東葉高速線</text>
 					<rect x="5830.992" y="2069.526" fill="#4BB041" stroke="#FFFFFF" stroke-width="2" width="24.156"
 						height="17.947" />
-					<text transform="matrix(0.75 0 0 0.75 5835.209 2084.3486)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 5835.209 2084.3486)" fill="#FFFFFF" class="heavy"
 						font-size="16px">TR</text>
 				</g>
 				<g id="つくばエクスプレス_1_">
@@ -4554,7 +4581,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">つくばエクスプレス</text>
 					<rect x="4672.799" y="1252.641" fill="#E72119" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 4676.8784 1266.4629)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 4676.8784 1266.4629)" fill="#FFFFFF" class="heavy"
 						font-size="16px">TX</text>
 				</g>
 				<g id="東武スカイツリーライン_2_">
@@ -4565,8 +4592,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="4452.962" y="1625.274" transform="matrix(0.7071 -0.7071 0.7071 0.7071 149.0818 3634.6226)"
 						fill="#1A70B9" stroke="#FFFFFF" stroke-width="2" width="17.948" height="24.157" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 4452.3936 1634.1383)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">TS</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 4452.3936 1634.1383)" fill="#FFFFFF" class="heavy"
+						font-size="16px">TS</text>
 				</g>
 				<g id="京成押上線_2_">
 
@@ -4576,8 +4603,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="4631.093" y="1720.673" transform="matrix(0.7071 -0.7071 0.7071 0.7071 136.9142 3789.8335)"
 						fill="#0B5FA6" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 4640.8716 1737.276)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">KS</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 4640.8716 1737.276)" fill="#FFFFFF" class="heavy"
+						font-size="16px">KS</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 6507.1777 1164)" fill="#3EB373" font-family="'mplus-2p-medium'"
 					font-size="18px">JR成田線</text>
@@ -4603,14 +4630,14 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">京成本線</text>
 					<rect x="6709.3" y="1724.375" fill="#0B5FA6" stroke="#FFFFFF" stroke-width="2" width="24.157"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 6713.6187 1737.1973)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 6713.6187 1737.1973)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KS</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 6749.2993 1701.9995)" fill="#3EB373" font-family="'mplus-2p-medium'"
 					font-size="18px">JR成田線</text>
 				<text transform="matrix(0.75 0 0 0.75 6667.7383 1623.1895)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 					font-size="18px">京成成田スカイアクセス線</text>
-				<text transform="matrix(0.75 0 0 0.75 3766.5391 870.9004)" fill="#AD7D20" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 3766.5391 870.9004)" fill="#AD7D20" class="bold"
 					font-size="18px">日暮里・舎人ライナー</text>
 				<g id="東武スカイツリーライン__xFF08_伊勢崎線_xFF09__1_">
 
@@ -4623,8 +4650,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="4044.462" y="1146.72" transform="matrix(0.7071 -0.7071 0.7071 0.7071 367.835 3205.627)"
 						fill="#1A70B9" stroke="#FFFFFF" stroke-width="2" width="17.948" height="24.157" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 4043.8923 1155.5856)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">TS</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 4043.8923 1155.5856)" fill="#FFFFFF" class="heavy"
+						font-size="16px">TS</text>
 				</g>
 				<g id="東武東上線_4_">
 
@@ -4634,8 +4661,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="1691.7" y="1175.152" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -341.3845 1550.2839)"
 						fill="#1A2C79" stroke="#FFFFFF" stroke-width="2" width="17.948" height="24.158" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 1691.3412 1184.2292)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">TJ</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 1691.3412 1184.2292)" fill="#FFFFFF" class="heavy"
+						font-size="16px">TJ</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 1159.936 2391.9634)" fill="#ED8E3F" font-family="'mplus-2p-medium'"
 					font-size="18px">JR武蔵野線</text>
@@ -4646,7 +4673,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">西武新宿線</text>
 					<rect x="1998.372" y="2115.526" fill="#1599C4" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 2003.1104 2129.3501)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 2003.1104 2129.3501)" fill="#FFFFFF" class="heavy"
 						font-size="16px">SS</text>
 				</g>
 				<g id="西武新宿線_3_">
@@ -4654,7 +4681,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">西武新宿線</text>
 					<rect x="3078.463" y="2144.526" fill="#1599C4" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 3082.2021 2158.3501)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 3082.2021 2158.3501)" fill="#FFFFFF" class="heavy"
 						font-size="16px">SS</text>
 				</g>
 				<g id="西武池袋線_4_">
@@ -4662,7 +4689,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">西武池袋線</text>
 					<rect x="1220.56" y="1820.276" fill="#ED7019" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 1225.8823 1833.1001)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1225.8823 1833.1001)" fill="#FFFFFF" class="heavy"
 						font-size="16px">SI</text>
 				</g>
 				<g id="西武有楽町線_2_">
@@ -4673,15 +4700,15 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2808.521" y="1754.879" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -421.0975 2511.0859)"
 						fill="#ED7019" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2818.7185 1771.0646)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">SI</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2818.7185 1771.0646)" fill="#FFFFFF" class="heavy"
+						font-size="16px">SI</text>
 				</g>
 				<g id="西武新宿線_2_">
 					<text transform="matrix(0.75 0 0 0.75 1250.1646 1942.4292)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">西武新宿線</text>
 					<rect x="1221.56" y="1927.563" fill="#1599C4" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 1226.2983 1940.3867)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1226.2983 1940.3867)" fill="#FFFFFF" class="heavy"
 						font-size="16px">SS</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 1174.7573 2027.5)" fill="#9F9FA0" font-family="'mplus-2p-medium'"
@@ -4693,7 +4720,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">西武池袋線</text>
 					<rect x="2904.134" y="1820.526" fill="#ED7019" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 2909.4565 1833.3496)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 2909.4565 1833.3496)" fill="#FFFFFF" class="heavy"
 						font-size="16px">SI</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 1536.0444 1449.75)" fill="#E5683E" font-family="'mplus-2p-medium'"
@@ -4714,15 +4741,15 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="1467.65" y="2424.264" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1287.1371 1758.9241)"
 						fill="#ED7019" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1476.2592 2442.0386)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">SW</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1476.2592 2442.0386)" fill="#FFFFFF" class="heavy"
+						font-size="16px">SW</text>
 				</g>
 				<g id="京王競馬場線_2_">
 					<text transform="matrix(0.75 0 0 0.75 1295.9771 2598.4785)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">京王競馬場線</text>
 					<rect x="1269.372" y="2584.613" fill="#D61379" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 1271.6709 2598.4365)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1271.6709 2598.4365)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KO</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 1403.2358 2843.4854)" fill="#F5C739" font-family="'mplus-2p-medium'"
@@ -4738,7 +4765,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">京王線</text>
 					<rect x="1857.666" y="2561.545" fill="#D61379" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 1860.9648 2574.3682)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1860.9648 2574.3682)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KO</text>
 				</g>
 				<g id="京王線_4_">
@@ -4754,14 +4781,14 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2103.906" y="2344.585" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1047.5549 2184.0981)"
 						fill="#2E327F" stroke="#FFFFFF" stroke-width="2" width="17.948" height="24.159" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2104.1855 2354.2991)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">IN</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2104.1855 2354.2991)" fill="#FFFFFF" class="heavy"
+						font-size="16px">IN</text>
 				</g>
 				<g id="小田急小田原線_4_">
 					<text transform="matrix(0.75 0 0 0.75 2262.5835 2778.8652)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">小田急小田原線</text>
 					<rect x="2234.978" y="2765" fill="#2D8AC3" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 2238.0132 2778.8232)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 2238.0132 2778.8232)" fill="#FFFFFF" class="heavy"
 						font-size="16px">OH</text>
 				</g>
 				<g id="東急世田谷線_2_">
@@ -4772,8 +4799,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2637.068" y="2804.613" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1216.6875 2695.7986)"
 						fill="#F2C720" stroke="#FFFFFF" stroke-width="2" width="17.948" height="24.159" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2637.1499 2814.1301)" fill="#231815"
-						font-family="'mplus-2p-heavy'" font-size="16px">SG</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2637.1499 2814.1301)" fill="#231815" class="heavy"
+						font-size="16px">SG</text>
 				</g>
 				<g id="東急田園都市線_9_">
 
@@ -4783,8 +4810,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2499.439" y="3018.692" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1405.2606 2662.5222)"
 						fill="#2AA48C" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2508.9988 3036.5151)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">DT</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2508.9988 3036.5151)" fill="#FFFFFF" class="heavy"
+						font-size="16px">DT</text>
 				</g>
 				<g id="東急東横線_2_">
 
@@ -4794,8 +4821,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2743.774" y="3129.02" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1411.7152 2867.6089)"
 						fill="#D01648" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2754.3008 3146.8801)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">TY</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2754.3008 3146.8801)" fill="#FFFFFF" class="heavy"
+						font-size="16px">TY</text>
 				</g>
 				<g id="東急目黒線_2_">
 
@@ -4805,8 +4832,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2834.905" y="3215.871" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1446.5387 2958.1479)"
 						fill="#199BC9" stroke="#FFFFFF" stroke-width="2" width="25.67" height="18.864" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2843.8835 3235.2104)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">MG</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2843.8835 3235.2104)" fill="#FFFFFF" class="heavy"
+						font-size="16px">MG</text>
 				</g>
 				<g id="東急池上線_2_">
 					<g>
@@ -4818,8 +4845,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2614.174" y="3516.026" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1723.3118 2889.2991)"
 						fill="#E58DAA" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2625.0737 3532.5085)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">IK</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2625.0737 3532.5085)" fill="#FFFFFF" class="heavy"
+						font-size="16px">IK</text>
 				</g>
 				<g id="東急多摩川線_2_">
 
@@ -4829,15 +4856,15 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2495.492" y="3446.043" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1711.7004 2783.6621)"
 						fill="#AA0D7A" stroke="#FFFFFF" stroke-width="2" width="17.948" height="24.158" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2494.8459 3454.8313)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">TM</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2494.8459 3454.8313)" fill="#FFFFFF" class="heavy"
+						font-size="16px">TM</text>
 				</g>
 				<g id="東急大井町線_2_">
 					<text transform="matrix(0.75 0 0 0.75 2370.2393 3315.3096)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">東急大井町線</text>
 					<rect x="2338.625" y="3301.375" fill="#E9934D" stroke="#FFFFFF" stroke-width="2" width="27.049"
 						height="18.962" />
-					<text transform="matrix(0.75 0 0 0.75 2341.8301 3314.2666)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 2341.8301 3314.2666)" fill="#FFFFFF" class="heavy"
 						font-size="16px">OM</text>
 				</g>
 				<g id="京急空港線_2_">
@@ -4845,7 +4872,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">京急空港線</text>
 					<rect x="3350.437" y="3722.019" fill="#41BDD9" stroke="#FFFFFF" stroke-width="2" width="27.05"
 						height="18.962" />
-					<text transform="matrix(0.75 0 0 0.75 3355.3457 3736.9111)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 3355.3457 3736.9111)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KK</text>
 				</g>
 				<g id="京急線_4_">
@@ -4853,7 +4880,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">京急線</text>
 					<rect x="3533.193" y="3373.625" fill="#41BDD9" stroke="#FFFFFF" stroke-width="2" width="27.05"
 						height="18.962" />
-					<text transform="matrix(0.75 0 0 0.75 3538.1021 3387.5181)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 3538.1021 3387.5181)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KK</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 3655.686 3507.4995)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
@@ -4863,8 +4890,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 				<text transform="matrix(0.75 0 0 0.75 4225.8267 3264.0215)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 					font-size="18px">りんかい線</text>
 
-				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 4402.436 2764.5)" fill="#D3C452"
-					font-family="'mplus-2p-bold'" font-size="18px">有楽町線</text>
+				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 4402.436 2764.5)" fill="#D3C452" class="bold"
+					font-size="18px">有楽町線</text>
 				<text transform="matrix(0.75 0 0 0.75 4997.7173 3099.6348)">
 					<tspan x="0" y="0" fill="#7C7B7C" font-family="'mplus-2p-medium'" font-size="18px">ディズニー</tspan>
 					<tspan x="0" y="20" fill="#7C7B7C" font-family="'mplus-2p-medium'" font-size="18px">リゾートライン</tspan>
@@ -4875,7 +4902,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 
 				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 6344.4165 2989.8203)" fill="#9F9FA0"
 					font-family="'mplus-2p-medium'" font-size="18px">千葉都市モノレール1号線</text>
-				<text transform="matrix(0.75 0 0 0.75 3338.3721 1400.9365)" fill="#1AACA8" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 3338.3721 1400.9365)" fill="#1AACA8" class="bold"
 					font-size="18px">南北線</text>
 				<text transform="matrix(0.75 0 0 0.75 3298.1025 1302.1123)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 					font-size="18px">埼玉高速鉄道線</text>
@@ -4887,8 +4914,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2988.409" y="1560.293" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -233.9216 2580.0071)"
 						fill="#1A2C79" stroke="#FFFFFF" stroke-width="2" width="17.948" height="24.158" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2989.4639 1569.9548)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">TJ</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2989.4639 1569.9548)" fill="#FFFFFF" class="heavy"
+						font-size="16px">TJ</text>
 				</g>
 				<g id="西武新宿線_1_">
 
@@ -4898,15 +4925,15 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="1126.087" y="1306.193" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -596.6026 1190.0082)"
 						fill="#1599C4" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1136.1648 1324.5001)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">SS</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1136.1648 1324.5001)" fill="#FFFFFF" class="heavy"
+						font-size="16px">SS</text>
 				</g>
 				<g id="京王相模原線_2_">
 					<text transform="matrix(0.75 0 0 0.75 950.2397 3019.9717)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">京王相模原線</text>
 					<rect x="923.755" y="3005.814" fill="#D61379" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 927.7617 3018.5146)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 927.7617 3018.5146)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KO</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 2485.4834 4213.3931)" fill="#1EB2D8" font-family="'mplus-2p-medium'"
@@ -4918,7 +4945,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">京急大師線</text>
 					<rect x="3186.129" y="3854.38" fill="#41BDD9" stroke="#FFFFFF" stroke-width="2" width="27.049"
 						height="18.962" />
-					<text transform="matrix(0.75 0 0 0.75 3191.0381 3868.2725)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 3191.0381 3868.2725)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KK</text>
 				</g>
 				<g id="東武亀戸線_2_">
@@ -4926,7 +4953,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">東武亀戸線</text>
 					<rect x="4684.634" y="1862.526" fill="#1A70B9" stroke="#FFFFFF" stroke-width="2" width="24.157"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 4689.0728 1875.3486)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 4689.0728 1875.3486)" fill="#FFFFFF" class="heavy"
 						font-size="16px">TS</text>
 				</g>
 
@@ -4940,17 +4967,17 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3181.428 3137)" fill="#31B495"
 					font-family="'mplus-2p-medium'" font-size="18px">JR埼京線</text>
 
-				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3451.7639 2562.5645)" fill="#1AACA8"
-					font-family="'mplus-2p-bold'" font-size="18px">南北線</text>
+				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3451.7639 2562.5645)" fill="#1AACA8" class="bold"
+					font-size="18px">南北線</text>
 
-				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3469.2151 2541.9062)" fill="#D3C452"
-					font-family="'mplus-2p-bold'" font-size="18px">有楽町線</text>
+				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3469.2151 2541.9062)" fill="#D3C452" class="bold"
+					font-size="18px">有楽町線</text>
 
-				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3431.6018 2580.4473)" fill="#DA1817"
-					font-family="'mplus-2p-bold'" font-size="18px">丸ノ内線</text>
+				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3431.6018 2580.4473)" fill="#DA1817" class="bold"
+					font-size="18px">丸ノ内線</text>
 
-				<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 3413.9883 2290.5046)" fill="#B00D7C"
-					font-family="'mplus-2p-bold'" font-size="18px">都営大江戸線</text>
+				<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 3413.9883 2290.5046)" fill="#B00D7C" class="bold"
+					font-size="18px">都営大江戸線</text>
 
 				<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2280.0361 216.0334)" fill="#ED8539"
 					font-family="'mplus-2p-medium'" font-size="18px">JR宇都宮線</text>
@@ -4967,7 +4994,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">小田急多摩線</text>
 					<rect x="926.339" y="3093.776" fill="#2D8AC3" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 929.7588 3108.5996)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 929.7588 3108.5996)" fill="#FFFFFF" class="heavy"
 						font-size="16px">OT</text>
 				</g>
 
@@ -4978,7 +5005,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">東急田園都市線</text>
 					<rect x="1085.591" y="3689.026" fill="#2AA48C" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 1089.5981 3702.8496)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1089.5981 3702.8496)" fill="#FFFFFF" class="heavy"
 						font-size="16px">DT</text>
 				</g>
 				<g id="東武大師線_2_">
@@ -4995,7 +5022,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">相鉄本線</text>
 					<rect x="1014.746" y="4093.867" fill="#2B4C96" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 1018.4644 4107.6899)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1018.4644 4107.6899)" fill="#FFFFFF" class="heavy"
 						font-size="16px">SO</text>
 				</g>
 				<g id="小田急小田原線_3_">
@@ -5006,15 +5033,15 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="1017.947" y="3252.124" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2004.1876 1683.3589)"
 						fill="#2D8AC3" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1027.8196 3271.6348)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">OH</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1027.8196 3271.6348)" fill="#FFFFFF" class="heavy"
+						font-size="16px">OH</text>
 				</g>
 				<g id="東急田園都市線_2_">
 					<text transform="matrix(0.75 0 0 0.75 914.7388 3905.0146)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">小田急江ノ島線</text>
 					<rect x="887.133" y="3892.15" fill="#2D8AC3" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 889.9956 3905.9736)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 889.9956 3905.9736)" fill="#FFFFFF" class="heavy"
 						font-size="16px">OE</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 1866.8384 4468.6602)" fill="#2765B0" font-family="'mplus-2p-medium'"
@@ -5023,7 +5050,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<text transform="matrix(0.75 0 0 0.75 1671.9214 4586.9355)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">京急線</text>
 					<rect x="1642.307" y="4572" fill="#41BDD9" stroke="#FFFFFF" stroke-width="2" width="27.05" height="18.962" />
-					<text transform="matrix(0.75 0 0 0.75 1647.2163 4585.8926)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1647.2163 4585.8926)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KK</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 1801.2651 4174.3149)" fill="#ED8539" font-family="'mplus-2p-medium'"
@@ -5051,7 +5078,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">相鉄いずみ野線</text>
 					<rect x="981.181" y="4403.169" fill="#2B4C96" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 984.8999 4416.9941)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 984.8999 4416.9941)" fill="#FFFFFF" class="heavy"
 						font-size="16px">SO</text>
 				</g>
 				<g id="東急大井町線_1_">
@@ -5059,7 +5086,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">東急こどもの国線</text>
 					<rect x="1335.469" y="3502.212" fill="#0D6DB2" stroke="#FFFFFF" stroke-width="2" width="27.049"
 						height="18.962" />
-					<text transform="matrix(0.75 0 0 0.75 1340.3652 3517.1038)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1340.3652 3517.1038)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KD</text>
 				</g>
 
@@ -5081,7 +5108,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">西武池袋線</text>
 					<rect x="596.969" y="1611.216" fill="#ED7019" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 603.291 1626.0396)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 603.291 1626.0396)" fill="#FFFFFF" class="heavy"
 						font-size="16px">SI</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 550.5996 1079.5)" fill="#A8A29C" font-family="'mplus-2p-medium'"
@@ -5090,7 +5117,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<text transform="matrix(0.75 0 0 0.75 325.6055 2536.6406)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">京王高尾線</text>
 					<rect x="299" y="2522.775" fill="#D61379" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 302.3003 2536.5986)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 302.3003 2536.5986)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KO</text>
 				</g>
 
@@ -5104,7 +5131,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">京王動物園線</text>
 					<rect x="792.133" y="2618.168" fill="#D61379" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 795.4331 2631.9912)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 795.4331 2631.9912)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KO</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 533.9199 3405.6523)" fill="#0A918D" font-family="'mplus-2p-medium'"
@@ -5117,15 +5144,15 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="592.977" y="3671.106" transform="matrix(0.7072 -0.7071 0.7071 0.7072 -2424.8337 1505.4878)"
 						fill="#2D8AC3" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 601.8494 3689.6143)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">OH</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 601.8494 3689.6143)" fill="#FFFFFF" class="heavy"
+						font-size="16px">OH</text>
 				</g>
 				<g id="京急線_2_">
 					<text transform="matrix(0.75 0 0 0.75 1920.4912 5267.5254)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">京急久里浜線</text>
 					<rect x="1890.877" y="5253.59" fill="#41BDD9" stroke="#FFFFFF" stroke-width="2" width="27.05"
 						height="18.962" />
-					<text transform="matrix(0.75 0 0 0.75 1895.7861 5267.4824)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1895.7861 5267.4824)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KK</text>
 				</g>
 				<g id="京急線_1_">
@@ -5133,7 +5160,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">京急逗子線</text>
 					<rect x="1624.849" y="4999.484" fill="#41BDD9" stroke="#FFFFFF" stroke-width="2" width="27.05"
 						height="18.962" />
-					<text transform="matrix(0.75 0 0 0.75 1629.7583 5013.375)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1629.7583 5013.375)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KK</text>
 				</g>
 
@@ -5149,8 +5176,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="212.989" y="4466.494" transform="matrix(0.7072 -0.7071 0.7071 0.7072 -3098.4929 1469.738)"
 						fill="#2D8AC3" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 222.8621 4486.002)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">OH</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 222.8621 4486.002)" fill="#FFFFFF" class="heavy"
+						font-size="16px">OH</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 548.7695 2811.0527)" fill="#9DCA40" font-family="'mplus-2p-medium'"
 					font-size="18px">JR横浜線</text>
@@ -5159,9 +5186,9 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 
 				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 5623.7212 857.9005)" fill="#9F9FA0"
 					font-family="'mplus-2p-medium'" font-size="18px">関東鉄道 常総線</text>
-				<text transform="matrix(0.75 0 0 0.75 3431.4263 3118.1123)" fill="#0F7CBB" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 3431.4263 3118.1123)" fill="#0F7CBB" class="bold"
 					font-size="18px">都営三田線</text>
-				<text transform="matrix(0.75 0 0 0.75 3432.2695 3087.2788)" fill="#1AACA8" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 3432.2695 3087.2788)" fill="#1AACA8" class="bold"
 					font-size="18px">南北線</text>
 				<text transform="matrix(0.75 0 0 0.75 3246.3472 495.1123)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 					font-size="18px">埼玉高速鉄道線</text>
@@ -5175,7 +5202,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">西武池袋線</text>
 					<rect x="1997.392" y="1820.526" fill="#ED7019" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 2002.7148 1833.3501)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 2002.7148 1833.3501)" fill="#FFFFFF" class="heavy"
 						font-size="16px">SI</text>
 				</g>
 				<g>
@@ -5204,7 +5231,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">みなとみらい線</text>
 					<rect x="2171.822" y="4547.352" fill="#113574" stroke="#FFFFFF" stroke-width="2" width="27.05"
 						height="18.962" />
-					<text transform="matrix(0.75 0 0 0.75 2174.5229 4562.2441)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 2174.5229 4562.2441)" fill="#FFFFFF" class="heavy"
 						font-size="16px">MM</text>
 				</g>
 				<g id="京急線_6_">
@@ -5212,7 +5239,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">江ノ島電鉄</text>
 					<rect x="1086.859" y="4942.18" fill="#005A3D" stroke="#FFFFFF" stroke-width="2" width="27.05"
 						height="18.962" />
-					<text transform="matrix(0.75 0 0 0.75 1092.0693 4956.0723)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1092.0693 4956.0723)" fill="#FFFFFF" class="heavy"
 						font-size="16px">EN</text>
 				</g>
 				<g id="西武池袋線_5_">
@@ -5223,15 +5250,15 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2384.21" y="1741.204" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -538.8109 2205.7612)"
 						fill="#ED7019" stroke="#FFFFFF" stroke-width="2" width="17.948" height="24.158" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2384.9714 1751.401)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">SI</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2384.9714 1751.401)" fill="#FFFFFF" class="heavy"
+						font-size="16px">SI</text>
 				</g>
 				<g id="京成本線_5_">
 					<text transform="matrix(0.75 0 0 0.75 4946.4053 1544.1074)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">京成金町線</text>
 					<rect x="4920.801" y="1530.242" fill="#0B5FA6" stroke="#FFFFFF" stroke-width="2" width="24.156"
 						height="17.947" />
-					<text transform="matrix(0.75 0 0 0.75 4925.1187 1543.0645)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 4925.1187 1543.0645)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KS</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 2486.1396 4175.4634)" fill="#ED8539" font-family="'mplus-2p-medium'"
@@ -5253,8 +5280,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3789.9348 1800.1681)" fill="#1EB2D8"
 					font-family="'mplus-2p-medium'" font-size="18px">JR京浜東北線</text>
 				<text transform="matrix(0.75 0 0 0.75 3819.1709 1544.1074)">
-					<tspan x="0" y="0" fill="#AD7D20" font-family="'mplus-2p-bold'" font-size="18px">日暮里</tspan>
-					<tspan x="0" y="20" fill="#AD7D20" font-family="'mplus-2p-bold'" font-size="18px">舎人ライナー</tspan>
+					<tspan x="0" y="0" fill="#AD7D20" class="bold" font-size="18px">日暮里</tspan>
+					<tspan x="0" y="20" fill="#AD7D20" class="bold" font-size="18px">舎人ライナー</tspan>
 				</text>
 				<text transform="matrix(0.75 0 0 0.75 3284.4375 1773.0781)" fill="#ED8E3F" font-family="'mplus-2p-medium'"
 					font-size="18px">JR湘南新宿ライン</text>
@@ -5263,7 +5290,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">京王相模原線</text>
 					<rect x="1658.68" y="2643.026" fill="#D61379" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 1662.6855 2655.7275)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1662.6855 2655.7275)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KO</text>
 				</g>
 
@@ -5274,7 +5301,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">小田急江ノ島線</text>
 					<rect x="886.368" y="4551.193" fill="#2D8AC3" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 889.231 4565.0166)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 889.231 4565.0166)" fill="#FFFFFF" class="heavy"
 						font-size="16px">OE</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 1309.436 4467.1675)" fill="#2765B0" font-family="'mplus-2p-medium'"
@@ -5284,14 +5311,14 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						font-size="18px">相鉄本線</text>
 					<rect x="1554.521" y="4093.35" fill="#2B4C96" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 1558.2393 4107.1724)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1558.2393 4107.1724)" fill="#FFFFFF" class="heavy"
 						font-size="16px">SO</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 679.4902 2141.5)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 					font-size="18px">西武拝島線</text>
-				<text transform="matrix(0.75 0 0 0.75 2493.1362 1665.5464)" fill="#BC6D21" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 2493.1362 1665.5464)" fill="#BC6D21" class="bold"
 					font-size="18px">副都心線</text>
-				<text transform="matrix(0.75 0 0 0.75 2492.2734 1628.251)" fill="#D3C452" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 2492.2734 1628.251)" fill="#D3C452" class="bold"
 					font-size="18px">有楽町線</text>
 				<g>
 
@@ -5307,7 +5334,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						fill="#7C7B7C" font-family="'mplus-2p-medium'" font-size="18px">東武伊勢崎線</text>
 					<rect x="4023.134" y="72.705" fill="#1A70B9" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 4026.1592 86.1133)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 4026.1592 86.1133)" fill="#FFFFFF" class="heavy"
 						font-size="16px">TS</text>
 				</g>
 				<g id="つくばエクスプレス_2_">
@@ -5318,8 +5345,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="4165.899" y="2179.026" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -323.4525 3595.1135)"
 						fill="#E72119" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 4174.5088 2197.7976)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">TX</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 4174.5088 2197.7976)" fill="#FFFFFF" class="heavy"
+						font-size="16px">TX</text>
 				</g>
 				<g id="つくばエクスプレス_3_">
 
@@ -5329,8 +5356,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="5244.026" y="771.431" transform="matrix(0.7071 -0.7071 0.7071 0.7071 987.5556 3945.0779)"
 						fill="#E72119" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 5253.9302 789.4949)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">TX</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 5253.9302 789.4949)" fill="#FFFFFF" class="heavy"
+						font-size="16px">TX</text>
 				</g>
 				<g id="東武野田線_xFF08_アーバンパークライン_xFF09__2_">
 
@@ -5340,8 +5367,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="5021.935" y="649" transform="matrix(0.7071 -0.7071 0.7071 0.7071 1005.9752 3750.8975)" fill="#4EBDC0"
 						stroke="#FFFFFF" stroke-width="2" width="17.947" height="24.158" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 5021.0596 659.5593)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">TD</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 5021.0596 659.5593)" fill="#FFFFFF" class="heavy"
+						font-size="16px">TD</text>
 				</g>
 
 				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 5100.5474 1035.5529)" fill="#E5683E"
@@ -5349,20 +5376,20 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 
 				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 5587.9155 1065.5939)" fill="#3EB373"
 					font-family="'mplus-2p-medium'" font-size="18px">JR成田線</text>
-				<text transform="matrix(0.75 0 0 0.75 4133.437 2820.3022)" fill="#EB9D12" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 4133.437 2820.3022)" fill="#EB9D12" class="bold"
 					font-size="18px">銀座線</text>
-				<text transform="matrix(0.75 0 0 0.75 4133.4341 2845.4849)" fill="#DA5A98" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 4133.4341 2845.4849)" fill="#DA5A98" class="bold"
 					font-size="18px">都営浅草線</text>
 				<text transform="matrix(0.75 0 0 0.75 4134.4351 2873.8076)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 					font-size="18px">ゆりかもめ</text>
-				<text transform="matrix(0.75 0 0 0.75 3935.1118 2767.5122)" fill="#DA1817" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 3935.1118 2767.5122)" fill="#DA1817" class="bold"
 					font-size="18px">丸ノ内線</text>
-				<text transform="matrix(0.75 0 0 0.75 3933.9375 2738.002)" fill="#A4B4BD" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 3933.9375 2738.002)" fill="#A4B4BD" class="bold"
 					font-size="18px">日比谷線</text>
 				<text transform="matrix(0.75 0 0 0.75 3604.7178 2130.3921)">
-					<tspan x="0" y="0" fill="#1AACA8" font-family="'mplus-2p-bold'" font-size="18px">南</tspan>
-					<tspan x="0" y="20" fill="#1AACA8" font-family="'mplus-2p-bold'" font-size="18px">北</tspan>
-					<tspan x="0" y="40" fill="#1AACA8" font-family="'mplus-2p-bold'" font-size="18px">線</tspan>
+					<tspan x="0" y="0" fill="#1AACA8" class="bold" font-size="18px">南</tspan>
+					<tspan x="0" y="20" fill="#1AACA8" class="bold" font-size="18px">北</tspan>
+					<tspan x="0" y="40" fill="#1AACA8" class="bold" font-size="18px">線</tspan>
 				</text>
 				<g id="京王井の頭線_1_">
 
@@ -5372,8 +5399,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2709.462" y="2799.421" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1191.8156 2745.4648)"
 						fill="#2E327F" stroke="#FFFFFF" stroke-width="2" width="17.948" height="24.159" />
 
-					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2709.7417 2809.135)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">IN</text>
+					<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2709.7417 2809.135)" fill="#FFFFFF" class="heavy"
+						font-size="16px">IN</text>
 				</g>
 				<g id="東急田園都市線_7_">
 
@@ -5383,8 +5410,8 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="1945.576" y="3509.526" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1914.5228 2414.6465)"
 						fill="#2AA48C" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1955.1365 3527.3491)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">DT</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1955.1365 3527.3491)" fill="#FFFFFF" class="heavy"
+						font-size="16px">DT</text>
 				</g>
 
 				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 2173.1145 3464.1758)" fill="#F5C739"
@@ -5392,7 +5419,7 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 
 				<text transform="matrix(0.5303 0.5303 -0.5303 0.5303 3164.4338 3149.1738)" fill="#ED8539"
 					font-family="'mplus-2p-medium'" font-size="18px">JR湘南新宿ライン</text>
-				<text transform="matrix(0.75 0 0 0.75 2407.3398 2448.1914)" fill="#DA1817" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 2407.3398 2448.1914)" fill="#DA1817" class="bold"
 					font-size="18px">丸ノ内支線</text>
 				<g id="小田急小田原線_5_">
 
@@ -5402,22 +5429,22 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="2713.55" y="2671.528" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -1097.0841 2712.2549)"
 						fill="#2D8AC3" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2722.7156 2690.3301)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">OH</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2722.7156 2690.3301)" fill="#FFFFFF" class="heavy"
+						font-size="16px">OH</text>
 				</g>
-				<text transform="matrix(0.75 0 0 0.75 2893.854 3026.2124)" fill="#A4B4BD" font-family="'mplus-2p-bold'"
+				<text transform="matrix(0.75 0 0 0.75 2893.854 3026.2124)" fill="#A4B4BD" class="bold"
 					font-size="18px">日比谷線</text>
 				<g id="京急線_7_">
 					<text transform="matrix(0.75 0 0 0.75 2248.7432 4264.6616)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">京急線</text>
 					<rect x="2219.129" y="4249.727" fill="#41BDD9" stroke="#FFFFFF" stroke-width="2" width="27.05"
 						height="18.962" />
-					<text transform="matrix(0.75 0 0 0.75 2224.0381 4263.6187)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 2224.0381 4263.6187)" fill="#FFFFFF" class="heavy"
 						font-size="16px">KK</text>
 				</g>
 
-				<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2622.209 2161.3972)" fill="#1AA5D0"
-					font-family="'mplus-2p-bold'" font-size="18px">東西線</text>
+				<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2622.209 2161.3972)" fill="#1AA5D0" class="bold"
+					font-size="18px">東西線</text>
 				<g id="京王線_1_">
 
 					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 2868.1992 2544.9397)" fill="#7C7B7C"
@@ -5433,15 +5460,15 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 					<rect x="1402.15" y="4080.507" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2477.4031 2197.6311)"
 						fill="#2B4C96" stroke="#FFFFFF" stroke-width="2" width="24.158" height="17.948" />
 
-					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1411.798 4098.8276)" fill="#FFFFFF"
-						font-family="'mplus-2p-heavy'" font-size="16px">SO</text>
+					<text transform="matrix(0.5303 -0.5303 0.5303 0.5303 1411.798 4098.8276)" fill="#FFFFFF" class="heavy"
+						font-size="16px">SO</text>
 				</g>
 				<g id="東急田園都市線_00000029034036189992202220000017189392886510223757_">
 					<text transform="matrix(0.75 0 0 0.75 1582.1265 4107.2134)" fill="#7C7B7C" font-family="'mplus-2p-medium'"
 						font-size="18px">相鉄本線</text>
 					<rect x="1554.521" y="4093.35" fill="#2B4C96" stroke="#FFFFFF" stroke-width="2" width="24.158"
 						height="17.948" />
-					<text transform="matrix(0.75 0 0 0.75 1558.2393 4107.1724)" fill="#FFFFFF" font-family="'mplus-2p-heavy'"
+					<text transform="matrix(0.75 0 0 0.75 1558.2393 4107.1724)" fill="#FFFFFF" class="heavy"
 						font-size="16px">SO</text>
 				</g>
 				<text transform="matrix(0.75 0 0 0.75 2516.4792 3661.5)" fill="#3EB373" font-family="'mplus-2p-medium'"
@@ -9884,386 +9911,386 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 				<g id="lv3-junction">
 					<g id="middle_3_">
 
-						<text transform="matrix(0.75 0 0 0.75 859.8525 4126.5269)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 859.8525 4126.5269)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">大和</text>
 
-						<text transform="matrix(0.75 0 0 0.75 493.834 4770.481)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 493.834 4770.481)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">茅ヶ崎</text>
 
-						<text transform="matrix(0.75 0 0 0.75 834.4697 3414.5889)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 834.4697 3414.5889)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">相模大野</text>
 
-						<text transform="matrix(0.75 0 0 0.75 132.6943 2510.3857)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 132.6943 2510.3857)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">高尾</text>
 
-						<text transform="matrix(0.75 0 0 0.75 349.6812 4266.3042)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 349.6812 4266.3042)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">本厚木</text>
 
-						<text transform="matrix(0.75 0 0 0.75 508.3398 4127.5269)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 508.3398 4127.5269)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">海老名</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1565.7393 5085.1094)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1565.7393 5085.1094)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">逗子</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1168.0557 4128.5269)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1168.0557 4128.5269)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">二俣川</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1599.3604 4461.4351)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1599.3604 4461.4351)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">上大岡</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1233.9111 4457.4746)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1233.9111 4457.4746)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">戸塚</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1365.8882 3054.375)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1365.8882 3054.375)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">新百合ヶ丘</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1359.4974 3653)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1359.4974 3653)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">長津田</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1789.4229 3651.75)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1789.4229 3651.75)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">あざみ野</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2366.936 4186.6074)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2366.936 4186.6074)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">東神奈川</text>
 
-						<text transform="matrix(0.75 0 0 0.75 6597.8374 2291.5005)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 6597.8374 2291.5005)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">佐倉</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5545.479 998.5684)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5545.479 998.5684)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">我孫子</text>
 
-						<text transform="matrix(0.75 0 0 0.75 6270.9497 2267.8501)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 6270.9497 2267.8501)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">ユーカリが丘</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5804.2109 1659.5127)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5804.2109 1659.5127)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">千葉ニュータウン中央</text>
 
-						<text transform="matrix(0.75 0 0 0.75 6170.4497 1659.269)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 6170.4497 1659.269)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">印旛日本医大</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3983.3677 129.8652)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3983.3677 129.8652)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">春日部</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5351.9761 1656.2046)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5351.9761 1656.2046)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">新鎌ヶ谷</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5210.3291 1658.7051)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5210.3291 1658.7051)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">東松戸</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1046.436 2097)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1046.436 2097)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">小川</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1628.436 2531.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1628.436 2531.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">調布</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5778.2588 1074.3926)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5778.2588 1074.3926)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">取手</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2760.436 3868.8618)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2760.436 3868.8618)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">尻手</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3227.5195 3980.3623)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3227.5195 3980.3623)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">浜川崎</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2766.1846 4019.4629)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2766.1846 4019.4629)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">鶴見</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3028.4355 3864.8613)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3028.4355 3864.8613)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">京急川崎</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1243.436 2098)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1243.436 2098)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">萩山</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1038.6958 1923.8345)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1038.6958 1923.8345)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">東村山</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1329.769 2078)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1329.769 2078)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">小平</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1228.2109 2290.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1228.2109 2290.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">国分寺</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1655.0854 2225)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1655.0854 2225)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">武蔵境</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4889.269 1474.75)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4889.269 1474.75)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">金町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4861.6465 1656.333)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4861.6465 1656.333)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">京成高砂</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4769.6753 1656.333)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4769.6753 1656.333)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">青砥</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3231.7197 1720.958)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3231.7197 1720.958)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">大塚</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4801.9248 1949.5005)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4801.9248 1949.5005)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">新小岩</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4196.9346 2997.498)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4196.9346 2997.498)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">汐留</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4528.4355 2939.4995)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4528.4355 2939.4995)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">豊洲</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3087.3076 3706.166)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3087.3076 3706.166)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">蒲田</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2853.1587 3332.4316)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2853.1587 3332.4316)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">旗の台</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3098.436 2356.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3098.436 2356.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">東新宿</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3686.811 3184)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3686.811 3184)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">泉岳寺</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4475.186 2198.5386)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4475.186 2198.5386)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">両国</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4566.436 2181.4375)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4566.436 2181.4375)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">錦糸町</text>
 						<text id="押上_1_" transform="matrix(0.75 0 0 0.75 4574.3389 2021.2056)">
-							<tspan x="0" y="0" class="color-L231815 fz-38" letter-spacing="-2.667">
+							<tspan x="0" y="0" class="color-L231815 fz-38 bold" letter-spacing="-2.667">
 								押上</tspan>
 							<tspan x="-102.025" y="39.6" class="color-L231815 fz-33" letter-spacing="-1.333">（スカイツリー前）</tspan>
 						</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4289.4556 2493.7461)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4289.4556 2493.7461)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">人形町</text>
 
 						<text transform="matrix(0.75 0 0 0.75 3839.7188 2545.9058)" class="color-L231815 fz-35"
 							letter-spacing="-1.333">大手町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3777.0288 2780.3052)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3777.0288 2780.3052)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">霞ヶ関</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3809.4351 2706)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3809.4351 2706)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">日比谷</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3589.8687 2851.4995)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3589.8687 2851.4995)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">溜池山王</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3595.4351 2731.7285)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3595.4351 2731.7285)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">国会議事堂前</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3626.7573 2201.1196)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3626.7573 2201.1196)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">水道橋</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3279.9897 2632.3389)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3279.9897 2632.3389)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">青山一丁目</text>
 
-						<text id="明治神宮前_1_" transform="matrix(0.75 0 0 0.75 3069.4863 2823.9429)" class="color-L231815 fz-38"
+						<text id="明治神宮前_1_" transform="matrix(0.75 0 0 0.75 3069.4863 2823.9429)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">明治神宮前</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3986.9336 2399.6035)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3986.9336 2399.6035)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">神田</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3752.437 1702.999)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3752.437 1702.999)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">西日暮里</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3652.4365 1706.249)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3652.4365 1706.249)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">田端</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3323.3838 1708.0005)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3323.3838 1708.0005)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">巣鴨</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2192.4355 2204.1196)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2192.4355 2204.1196)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">荻窪</text>
 
 						<text transform="matrix(0.75 -9.225000e-04 9.225000e-04 0.75 2455.2961 2594.5815)"
-							class="color-L231815 fz-38" letter-spacing="-2.667">明大前</text>
+							class="color-L231815 fz-38 bold" letter-spacing="-2.667">明大前</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2666.646 2954.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2666.646 2954.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">三軒茶屋</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2627.4355 2329)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2627.4355 2329)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">中野坂上</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2636.9277 2526.2852)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2636.9277 2526.2852)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">笹塚</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3578.4038 1437.9375)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3578.4038 1437.9375)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">王子</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4028.5635 3068.0278)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4028.5635 3068.0278)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">浜松町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1376.6559 4124.0835)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1376.6559 4124.0835)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">西谷</text>
 					</g>
 					<g id="right_2_">
 
-						<text transform="matrix(0.75 0 0 0.75 812.5732 4720.1401)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 812.5732 4720.1401)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">藤沢</text>
 
-						<text transform="matrix(0.75 0 0 0.75 750.5347 3682.1919)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 750.5347 3682.1919)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">中央林間</text>
 
-						<text transform="matrix(0.75 0 0 0.75 552.8828 2592.2666)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 552.8828 2592.2666)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">北野</text>
 
-						<text transform="matrix(0.75 0 0 0.75 474.0225 2140.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 474.0225 2140.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">拝島</text>
 
-						<text transform="matrix(0.75 0 0 0.75 422.0718 1427.0332)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 422.0718 1427.0332)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">東飯能</text>
 
-						<text transform="matrix(0.75 0 0 0.75 450.2114 1012.0684)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 450.2114 1012.0684)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">高麗川</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2029.418 5201.6328)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2029.418 5201.6328)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">久里浜</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1677.7026 4947.667)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1677.7026 4947.667)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">金沢八景</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1783.4014 3745.4434)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1783.4014 3745.4434)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">センター北</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1783.5498 3794.9834)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1783.5498 3794.9834)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">センター南</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2110.5642 4518.7568)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2110.5642 4518.7568)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">関内</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2087.8999 4401.7153)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2087.8999 4401.7153)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">桜木町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1478.8457 3837.4014)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1478.8457 3837.4014)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">中山</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2025.418 3897.6968)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2025.418 3897.6968)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">新横浜</text>
 
-						<text transform="matrix(0.75 0 0 0.75 6045.9946 2989.8208)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 6045.9946 2989.8208)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">蘇我</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5771.5962 2804.6978)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5771.5962 2804.6978)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">千葉みなと</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5095.0737 1260.6143)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5095.0737 1260.6143)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">馬橋</text>
 
-						<text transform="matrix(0.75 0 0 0.75 6053.3594 2183.4375)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 6053.3594 2183.4375)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">東葉勝田台</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5248.2334 2368.5859)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5248.2334 2368.5859)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">京成船橋</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3253.9336 1367.7168)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3253.9336 1367.7168)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">赤羽岩淵</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2510.8491 873.75)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2510.8491 873.75)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">武蔵浦和</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4980.2148 1006.5039)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4980.2148 1006.5039)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">南流山</text>
 
-						<text transform="matrix(0.75 0 0 0.75 445.9717 1608.9414)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 445.9717 1608.9414)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">飯能</text>
 
-						<text transform="matrix(0.75 0 0 0.75 929.2114 1811.5879)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 929.2114 1811.5879)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">西所沢</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4493.5737 1877.5005)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4493.5737 1877.5005)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">曳舟</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1107.0942 2655.394)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1107.0942 2655.394)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">府中本町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1095.8481 2292)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1095.8481 2292)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">西国分寺</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4965.4697 1388.8652)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4965.4697 1388.8652)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">松戸</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2791.2109 2464.7256)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2791.2109 2464.7256)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">都庁前</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3547.7109 2024.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3547.7109 2024.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">後楽園</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3622.2041 2446.3462)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3622.2041 2446.3462)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">九段下</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3875.002 1608.5005)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3875.002 1608.5005)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">町屋</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3284.5132 3485.1055)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3284.5132 3485.1055)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">大井町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2000.6338 3407.5889)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2000.6338 3407.5889)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">溝の口</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2335.814 3438.8335)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2335.814 3438.8335)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">多摩川</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2282.2158 1813.9995)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2282.2158 1813.9995)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">豊島園</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5001.9238 2181.0054)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5001.9238 2181.0054)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">本八幡</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3263.4375 3107.75)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3263.4375 3107.75)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">白金台</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3509.7329 3108.583)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3509.7329 3108.583)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">白金高輪</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4473.9131 2821.2012)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4473.9131 2821.2012)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">月島</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4377.5732 2100.2393)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4377.5732 2100.2393)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">蔵前</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4374.8291 2199.5391)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4374.8291 2199.5391)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">浅草橋</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4122.2173 2524.1895)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4122.2173 2524.1895)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">三越前</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4122.2114 2564.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4122.2114 2564.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">日本橋</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3206.436 2759.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3206.436 2759.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">表参道</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3510.3477 3019.373)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3510.3477 3019.373)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">麻布十番</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3859.3364 1796.168)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3859.3364 1796.168)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">日暮里</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2897.8496 1618.3574)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2897.8496 1618.3574)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">小竹向原</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2373.4756 3375.167)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2373.4756 3375.167)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">田園調布</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2746.2109 3023.6533)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2746.2109 3023.6533)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">中目黒</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3576.4448 1706.4268)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3576.4448 1706.4268)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">駒込</text>
 
-						<text transform="matrix(0.75 0 0 0.75 6108.3618 2264.4995)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 6108.3618 2264.4995)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">勝田台</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4937.5737 2087.0898)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4937.5737 2087.0898)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">市川</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2307.1748 2593.9155)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2307.1748 2593.9155)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">下高井戸</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2111.041 3276.0181)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2111.041 3276.0181)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">二子玉川</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3450.27 2729.4077)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3450.27 2729.4077)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">赤坂見附</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3806.0098 3108.999)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3806.0098 3108.999)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">三田</text>
 					</g>
 					<g id="left_2_">
@@ -10283,225 +10310,225 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 						<text transform="matrix(0.75 0 0 0.75 786.4355 3082.9609)" class="color-L231815 fz-27"
 							letter-spacing="-1.333">小田急多摩センター</text>
 
-						<text transform="matrix(0.75 0 0 0.75 580.209 2714.3394)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 580.209 2714.3394)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">多摩動物公園</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4940.436 2901.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4940.436 2901.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">舞浜</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2367.2393 460.7812)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2367.2393 460.7812)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">さいたま新都心</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5452.0879 650.665)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5452.0879 650.665)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">守谷</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2170.1255 5202.6328)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2170.1255 5202.6328)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">京急久里浜</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2336.6245 4977.5078)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2336.6245 4977.5078)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">堀ノ内</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1839.8789 4698.0874)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1839.8789 4698.0874)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">新杉田</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4042.3911 1098.3945)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4042.3911 1098.3945)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">西新井</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1043.5151 2592.0913)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1043.5151 2592.0913)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">分倍河原</text>
 
-						<text transform="matrix(0.75 0 0 0.75 747.2607 2098.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 747.2607 2098.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">玉川上水</text>
 
-						<text transform="matrix(0.75 0 0 0.75 6445.6919 2518.5454)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 6445.6919 2518.5454)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">都賀</text>
 
-						<text transform="matrix(0.75 0 0 0.75 6590.6421 1672.6475)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 6590.6421 1672.6475)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">成田</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1575.436 1012.0674)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1575.436 1012.0674)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">川越</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5980.9282 2617.4292)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5980.9282 2617.4292)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">稲毛</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5663.3618 2062)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5663.3618 2062)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">北習志野</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5659.8618 2288.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5659.8618 2288.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">新津田沼</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5605.8843 2400.4995)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5605.8843 2400.4995)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">京成津田沼</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5116.6665 2102.25)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5116.6665 2102.25)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">京成八幡</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2699.6855 823.3105)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2699.6855 823.3105)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">南浦和</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5263.4194 845.5703)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5263.4194 845.5703)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">流山おおたかの森</text>
 
-						<text transform="matrix(0.75 0 0 0.75 726.9883 2528.75)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 726.9883 2528.75)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">高幡不動</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2202.6548 3895.7495)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2202.6548 3895.7495)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">菊名</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2221.4438 3707.209)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2221.4438 3707.209)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">日吉</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2995.6865 3951.7471)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2995.6865 3951.7471)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">八丁畷</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3313.7695 653.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3313.7695 653.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">東川口</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3796.6602 2445.3462)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3796.6602 2445.3462)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">神保町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3898.5215 1960.5137)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3898.5215 1960.5137)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">鶯谷</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4566.686 1491.75)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4566.686 1491.75)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">綾瀬</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4003.6763 2110.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4003.6763 2110.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">御徒町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2965.9995 2736)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2965.9995 2736)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">原宿</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2979.6021 2208.1196)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2979.6021 2208.1196)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">新大久保</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2985.436 1969.5664)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2985.436 1969.5664)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">目白</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3715.104 2030.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3715.104 2030.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">本郷三丁目</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4380.2104 2677.894)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4380.2104 2677.894)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">八丁堀</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4239.9663 2770.8223)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4239.9663 2770.8223)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">東銀座</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2963.0732 2654.4998)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2963.0732 2654.4998)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">代々木</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3003.6855 3389.833)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3003.6855 3389.833)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">中延</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3149.4351 3246)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3149.4351 3246)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">五反田</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3063.103 3148.041)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3063.103 3148.041)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">目黒</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2982.6025 3054.9609)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2982.6025 3054.9609)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">恵比寿</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4377.2104 2596.582)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4377.2104 2596.582)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">茅場町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4486.4355 2600.582)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4486.4355 2600.582)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">門前仲町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4485.4355 2496.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4485.4355 2496.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">清澄白河</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4485.4092 2393.792)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4485.4092 2393.792)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">森下</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4592.7695 2392.7915)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4592.7695 2392.7915)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">住吉</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3644.436 2024.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3644.436 2024.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">春日</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3415.5771 2379.5)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3415.5771 2379.5)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">市ヶ谷</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3941.1899 3154.7158)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3941.1899 3154.7158)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">田町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4002.4336 2738)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4002.4336 2738)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">有楽町</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2100.686 1554.2061)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2100.686 1554.2061)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">和光市</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5267.936 1172.9004)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 5267.936 1172.9004)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">新松戸</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4129.1045 1656.333)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 4129.1045 1656.333)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">南千住</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2788.9062 2695.3638)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2788.9062 2695.3638)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">代々木上原</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2703.436 2767)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2703.436 2767)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">下北沢</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2706.8247 3330.4307)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2706.8247 3330.4307)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">大岡山</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2515.7021 3328.4316)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2515.7021 3328.4316)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">自由が丘</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2659.436 2080.9219)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2659.436 2080.9219)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">中井</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2638.9341 2206.1196)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 2638.9341 2206.1196)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">東中野</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3184.9365 3761.5693)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3184.9365 3761.5693)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">京急蒲田</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1834.5317 3086.5674)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 1834.5317 3086.5674)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">登戸</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3528.4365 2591.6553)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3528.4365 2591.6553)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">永田町</text>
 						<g id="羽田空港第1ビル_1_">
 							<text transform="matrix(0.75 0 0 0.75 3755.9365 3693.1929)">
-								<tspan x="0" y="0" class="color-L851B21 fz-31" letter-spacing="-1.333">羽田空港</tspan>
-								<tspan x="0" y="30.667" class="color-L851B21 fz-31" letter-spacing="-1.333">第1ターミナル</tspan>
+								<tspan x="0" y="0" class="color-L851B21 fz-31 bold" letter-spacing="-1.333">羽田空港</tspan>
+								<tspan x="0" y="30.667" class="color-L851B21 fz-31 bold" letter-spacing="-1.333">第1ターミナル</tspan>
 							</text>
 						</g>
 						<g id="羽田空港第2ビル_1_">
 							<text transform="matrix(0.75 0 0 0.75 3907.103 3692.1929)">
-								<tspan x="0" y="0" class="color-L1B284D fz-31" letter-spacing="-1.333">羽田空港</tspan>
-								<tspan x="0" y="30.667" class="color-L1B284D fz-31" letter-spacing="-1.333">第2ターミナル</tspan>
+								<tspan x="0" y="0" class="color-L1B284D fz-31 bold" letter-spacing="-1.333">羽田空港</tspan>
+								<tspan x="0" y="30.667" class="color-L1B284D fz-31 bold" letter-spacing="-1.333">第2ターミナル</tspan>
 							</text>
 						</g>
 						<text id="羽田空港_x0D_第3ターミナル" transform="matrix(0.75 0 0 0.75 3613.3193 3788.0967)">
-							<tspan x="0" y="0" class="color-L231815 fz-31" letter-spacing="-1.333">
+							<tspan x="0" y="0" class="color-L231815 fz-31 bold" letter-spacing="-1.333">
 								羽田空港</tspan>
-							<tspan x="0" y="30.667" class="color-L231815 fz-31" letter-spacing="-1.333">第3ターミナル</tspan>
+							<tspan x="0" y="30.667" class="color-L231815 fz-31 bold" letter-spacing="-1.333">第3ターミナル</tspan>
 						</text>
 						<text id="羽田空港_x0D_第1_x30FB_第2ターミナル" transform="matrix(0.75 0 0 0.75 3777.9351 3788.0967)">
-							<tspan x="0" y="0" class="color-L231815 fz-31" letter-spacing="-1.333">
+							<tspan x="0" y="0" class="color-L231815 fz-31 bold" letter-spacing="-1.333">
 								羽田空港</tspan>
-							<tspan x="0" y="30.667" class="color-L231815 fz-31" letter-spacing="-1.333">第1・第2ターミナル</tspan>
+							<tspan x="0" y="30.667" class="color-L231815 fz-31 bold" letter-spacing="-1.333">第1・第2ターミナル</tspan>
 						</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3839.7617 3241.5845)" class="color-L231815 fz-38"
+						<text transform="matrix(0.75 0 0 0.75 3839.7617 3241.5845)" class="color-L231815 fz-38 bold"
 							letter-spacing="-2.667">高輪ゲートウェイ</text>
 
 						<text id="天空橋_00000069372049074641891420000014730162060341063345_"
-							transform="matrix(0.75 0 0 0.75 3529.4558 3789.0481)" class="color-L231815 fz-31"
+							transform="matrix(0.75 0 0 0.75 3529.4558 3789.0481)" class="color-L231815 fz-31 bold"
 							letter-spacing="-1.333">天空橋</text>
 						<g id="羽田空港第1ビル_00000033335364046830023550000001570074273255359892_">
 
-							<text transform="matrix(0.75 0 0 0.75 3846.8271 3691.1931)" class="color-L851B21 fz-24"
+							<text transform="matrix(0.75 0 0 0.75 3846.8271 3691.1931)" class="color-L851B21 fz-24 bold"
 								letter-spacing="-1.333">(JAL)</text>
 						</g>
 						<g id="羽田空港第1ビル_00000176029188694185199830000006335912635172255662_">
 
-							<text transform="matrix(0.75 0 0 0.75 3998.3501 3689.4229)" class="color-L1D2B56 fz-24"
+							<text transform="matrix(0.75 0 0 0.75 3998.3501 3689.4229)" class="color-L1D2B56 fz-24 bold"
 								letter-spacing="-1.333">(ANA)</text>
 						</g>
 					</g>
@@ -10509,153 +10536,200 @@ iAuBWICKZj4ACDAA1W0LFRUbvgwAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 4011.435
 				<g id="lv2-big-junction">
 					<g id="middle_1_">
 
-						<text transform="matrix(0.75 0 0 0.75 2528.2559 2204.1196)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 2528.2559 2204.1196)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">中野</text>
-						<text transform="matrix(0.75 0 0 0.75 4018.8672 2847.5156)" class="color-L231815 fz-51">新橋</text>
+						<text transform="matrix(0.75 0 0 0.75 4018.8672 2847.5156)" class="color-L231815 fz-51 bold">新橋</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3303.7661 2905.5)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 3303.7661 2905.5)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">六本木</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3303.436 2550.041)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 3303.436 2550.041)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">四ツ谷</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2915.5864 2077.5)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 2915.5864 2077.5)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">高田馬場</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2395.7139 1900.7056)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 2395.7139 1900.7056)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">練馬</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3739.0786 2199.5386)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 3739.0786 2199.5386)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">御茶ノ水</text>
-						<text transform="matrix(0.75 0 0 0.75 3273.4355 3303.3262)" class="color-L231815 fz-40">大崎</text>
+						<text transform="matrix(0.75 0 0 0.75 3273.4355 3303.3262)" class="color-L231815 fz-40 bold">大崎</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1909.6543 2204.5)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 1909.6543 2204.5)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">吉祥寺</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5365.4336 2277.9141)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 5365.4336 2277.9141)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">船橋</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5386.2891 993.75)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 5386.2891 993.75)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">柏</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1049.0347 3320.3374)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 1049.0347 3320.3374)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">町田</text>
-						<text transform="matrix(0.75 0 0 0.75 1230.6924 4726.1411)" class="color-L231815 fz-42">大船</text>
-						<text transform="matrix(0.75 0 0 0.75 1231.4478 4980.5049)" class="color-L231815 fz-42">鎌倉</text>
+						<text transform="matrix(0.75 0 0 0.75 1230.6924 4726.1411)" class="color-L231815 fz-42 bold">大船</text>
+						<text transform="matrix(0.75 0 0 0.75 1231.4478 4980.5049)" class="color-L231815 fz-42 bold">鎌倉</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1054.2695 1827.7017)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 1054.2695 1827.7017)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">所沢</text>
 
-						<text transform="matrix(0.75 0 0 0.75 472.7988 2430.6914)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 472.7988 2430.6914)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">八王子</text>
 
-						<text transform="matrix(0.75 0 0 0.75 1794.585 2204.5)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 1794.585 2204.5)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">三鷹</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3922.8643 2995.1665)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 3922.8643 2995.1665)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">大門</text>
 					</g>
 					<g id="right">
 
-						<text transform="matrix(0.75 0 0 0.75 4364.2695 1935.2456)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 4364.2695 1935.2456)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">浅草</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5478.1162 2299)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 5478.1162 2299)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">津田沼</text>
 
-						<text transform="matrix(0.75 0 0 0.75 746.0884 4483.606)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 746.0884 4483.606)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">湘南台</text>
 
-						<text transform="matrix(0.75 0 0 0.75 433.4854 3060.5)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 433.4854 3060.5)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">橋本</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2925.2354 3864.8613)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 2925.2354 3864.8613)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">川崎</text>
 
-						<text transform="matrix(0.75 0 0 0.75 5107.9346 2327.3647)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 5107.9346 2327.3647)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">西船橋</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4147.5693 2777.499)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 4147.5693 2777.499)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">銀座</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3351.9312 2219.5005)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 3351.9312 2219.5005)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">飯田橋</text>
 					</g>
 					<g id="left">
 						<text id="新宿三丁目_2_" transform="matrix(0.75 0 0 0.75 3082.436 2498.0249)">
-							<tspan x="0" y="0" class="color-L231815 fz-56" letter-spacing="-1.333">
+							<tspan x="0" y="0" class="color-L231815 fz-56 bold" letter-spacing="-1.333">
 								新宿</tspan>
-							<tspan x="0" y="56" class="color-L231815 fz-56" letter-spacing="-1.333">
+							<tspan x="0" y="56" class="color-L231815 fz-56 bold" letter-spacing="-1.333">
 								三丁目</tspan>
 						</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4002.1816 2199.1196)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 4002.1816 2199.1196)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">秋葉原</text>
 
-						<text transform="matrix(0.75 0 0 0.75 814.7383 2257)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 814.7383 2257)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">立川</text>
 						<text id="空港第2ビル_2_" transform="matrix(0.75 0 0 0.75 6879.7944 1871.209)">
-							<tspan x="0" y="0" class="color-LDE6E24 fz-56" letter-spacing="-1.333">
+							<tspan x="0" y="0" class="color-LDE6E24 fz-56 bold" letter-spacing="-1.333">
 								空港第2ビル</tspan>
-							<tspan x="0" y="42.4" class="color-LDE6E24 fz-36">成田第2・</tspan>
-							<tspan x="162.54" y="42.4" class="color-L56ACBD fz-36">第3ターミナル</tspan>
+							<tspan x="0" y="42.4" class="color-LDE6E24 fz-36 bold">成田第2・</tspan>
+							<tspan x="162.54" y="42.4" class="color-L56ACBD fz-36 bold">第3ターミナル</tspan>
 						</text>
 						<text id="成田空港_1_" transform="matrix(0.75 0 0 0.75 6879.7944 1986.3936)">
-							<tspan x="0" y="0" class="color-L15833B fz-56" letter-spacing="-1.333">
+							<tspan x="0" y="0" class="color-L15833B fz-56 bold" letter-spacing="-1.333">
 								成田空港</tspan>
-							<tspan x="0" y="42.4" class="color-L15833B fz-36">成田第1ターミナル</tspan>
+							<tspan x="0" y="42.4" class="color-L15833B fz-36 bold">成田第1ターミナル</tspan>
 						</text>
 
-						<text transform="matrix(0.75 0 0 0.75 6168.1001 2788.75)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 6168.1001 2788.75)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">千葉</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4268.187 1502.4976)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 4268.187 1502.4976)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">北千住</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3174.4863 1411.1699)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 3174.4863 1411.1699)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">赤羽</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2344.8098 3620.397)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 2344.8098 3620.397)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">武蔵小杉</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4643.4355 2950.4995)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 4643.4355 2950.4995)" class="color-L231815 fz-56 bold"
 							letter-spacing="-1.333">新木場</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2628.436 721.0898)" class="color-L231815 fz-56"
+						<text transform="matrix(0.75 0 0 0.75 2628.436 721.0898)" class="color-L231815 fz-56 bold"
 							letter-spacing="-4">浦和</text>
 					</g>
 				</g>
 				<g id="lv1-terminal">
 					<g id="middle_2_">
 
-						<text transform="matrix(0.75 0 0 0.75 2926.4355 2468.4995)" class="color-L231815 fz-83"
+						<text transform="matrix(0.75 0 0 0.75 2926.4355 2468.4995)" class="color-L231815 fz-83 heavy"
 							letter-spacing="-4">新宿</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2943.936 2925.25)" class="color-L231815 fz-69"
+						<text transform="matrix(0.75 0 0 0.75 2943.936 2925.25)" class="color-L231815 fz-69 heavy"
 							letter-spacing="-2.667">渋谷</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3995.4355 2649)" class="color-L231815 fz-67"
+						<text transform="matrix(0.75 0 0 0.75 3995.4355 2649)" class="color-L231815 fz-67 heavy"
 							letter-spacing="-2.667">東京</text>
 
-						<text transform="matrix(0.75 0 0 0.75 4003.5474 1990.8867)" class="color-L231815 fz-63"
+						<text transform="matrix(0.75 0 0 0.75 4003.5474 1990.8867)" class="color-L231815 fz-63 heavy"
 							letter-spacing="-2.667">上野</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3092.9355 1860.0391)" class="color-L231815 fz-76"
+						<text transform="matrix(0.75 0 0 0.75 3092.9355 1860.0391)" class="color-L231815 fz-76 heavy"
 							letter-spacing="-2.667">池袋</text>
 
-						<text transform="matrix(0.75 0 0 0.75 3540.6909 3320.2666)" class="color-L231815 fz-77"
+						<text transform="matrix(0.75 0 0 0.75 3540.6909 3320.2666)" class="color-L231815 fz-77 heavy"
 							letter-spacing="-2.667">品川</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2066.436 4228.6479)" class="color-L231815 fz-87"
+						<text transform="matrix(0.75 0 0 0.75 2066.436 4228.6479)" class="color-L231815 fz-87 heavy"
 							letter-spacing="-4">横浜</text>
 
-						<text transform="matrix(0.75 0 0 0.75 2139.4429 416.7051)" class="color-L231815 fz-95"
+						<text transform="matrix(0.75 0 0 0.75 2139.4429 416.7051)" class="color-L231815 fz-95 heavy"
 							letter-spacing="-4">大宮</text>
 					</g>
 				</g>
 			</g>
 		</svg>
 	</div>
+	<script>
+		/**
+		 * SVG要素をハイライトする関数
+		 * @param {string} stationId - ハイライトするSVG要素のID
+		 * @param {number} [radius=60] - ハイライト円の半径（デフォルトは60px）
+		 * @param {string} [color="rgba(255, 51, 51, 0.8)"] - ハイライトの色（デフォルトは半透明の赤）
+		 * @returns {Element|null} - 作成したハイライト要素、または操作が失敗した場合はnull
+		 */
+		function highlightStation(stationId, color = "rgba(255, 51, 51, 0.8)", radius = 60) {
+			const $station = document.getElementById(stationId);
+
+			if (!$station) return null;
+
+			let centerX, centerY;
+
+			try {
+				if ($station.tagName.toLowerCase() === 'circle') {
+					centerX = Number($station.getAttribute('cx'));
+					centerY = Number($station.getAttribute('cy'));
+				} else {
+					// path/group要素の場合はバウンディングボックスの中心を使用
+					const bbox = $station.getBBox();
+					centerX = bbox.x + (bbox.width / 2);
+					centerY = bbox.y + (bbox.height / 2);
+				}
+
+				const $highlight = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+
+				$highlight.setAttribute("cx", centerX);
+				$highlight.setAttribute("cy", centerY);
+				$highlight.setAttribute("r", radius);
+				$highlight.setAttribute("fill", color);
+				$highlight.setAttribute("class", "station-highlight");
+
+				// 背景として表示するため、対象要素の直前に挿入
+				$station.parentNode.insertBefore($highlight, $station);
+
+				return $highlight;
+			} catch (error) {
+				console.error(`ハイライト作成中にエラーが発生しました (ID: ${stationId}):`, error);
+				return null;
+			}
+		}
+
+		highlightStation("中目黒");
+		highlightStation("渋谷");
+	</script>
 </body>
 
 </html>
